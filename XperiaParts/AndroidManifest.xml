@@ -52,7 +52,7 @@
         </activity>
 
         <service
-            android:name=".charger.DisplayTitleService"
+            android:name=".display.DisplayTileService"
             android:label="@string/display_qs_tile_title"
             android:icon="@drawable/ic_qs_display_enhance"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"

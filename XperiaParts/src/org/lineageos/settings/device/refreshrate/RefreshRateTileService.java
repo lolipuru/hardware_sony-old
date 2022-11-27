@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.refreshrate;
+package org.lineageos.settings.device.refreshrate;
 
 import android.content.Context;
 import android.provider.Settings;

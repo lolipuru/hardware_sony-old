@@ -28,10 +28,12 @@ class DisplayTileService : TileService() {
         super.onClick()
 
         if (qsTile.state == Tile.STATE_ACTIVE) {
-            // enable --> disable
+            // disable --> enable
+            creatorModeUtils.setMode(true)
             qsTile.state = Tile.STATE_INACTIVE
         } else {
-            // disable -> enable
+            // enable -> disable
+            creatorModeUtils.setMode(false)
             qsTile.state = Tile.STATE_ACTIVE
         }
 
